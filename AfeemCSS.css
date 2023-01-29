@@ -1,0 +1,560 @@
+.header {
+  background-color: rgb(0, 0, 0);
+  width: 1369px;
+  height: 90px;
+  bottom: 580px;
+  position: fixed;
+  right: 1px;
+}
+.filmflixing {
+  float: left;
+}
+.no-style {
+  list-style-type: none;
+}
+#feemboi {
+  position: fixed;
+  bottom: 520px;
+  right: 1130px;
+}
+#filmflixlogo {
+  position: fixed;
+  bottom: 575px;
+  right: 1250px;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.header-items {
+  color: rgb(224, 209, 209);
+  list-style-type: none;
+  float: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  /* position: fixed;
+      left: 520px; */
+}
+#narrative {
+  position: fixed;
+  right: 550px;
+  letter-spacing: 3px;
+}
+#narrative:hover {
+  color: rgb(255, 255, 255);
+}
+
+#commercial {
+  position: fixed;
+  right: 410px;
+  letter-spacing: 3px;
+}
+#commercial:hover {
+  color: rgb(255, 255, 255);
+}
+#music-video {
+  position: fixed;
+  right: 260px;
+  letter-spacing: 3px;
+}
+#music-video:hover {
+  color: rgb(255, 255, 255);
+}
+#bio {
+  position: fixed;
+  right: 210px;
+  letter-spacing: 3px;
+}
+#bio:hover {
+  color: rgb(255, 255, 255);
+}
+#gear {
+  position: fixed;
+  right: 140px;
+  letter-spacing: 3px;
+}
+#gear:hover {
+  color: #ffffff;
+}
+#contact {
+  position: fixed;
+  right: 40px;
+  letter-spacing: 3px;
+}
+#contact:hover {
+  color: rgb(255, 255, 255);
+}
+.background-video {
+  width: 1348px;
+  margin-left: -7px;
+  margin-right: -90px;
+}
+.latest-work {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 10px;
+}
+.latest-work:hover {
+  opacity: 0.5;
+}
+#playicon {
+  font-size: 35px;
+  position: absolute;
+  top: 420px;
+  left: 650px;
+  color: white;
+}
+#icon-text {
+  font-size: 20px;
+  position: absolute;
+  top: 430px;
+  left: 697px;
+  color: white;
+  text-decoration: underline;
+}
+.play-and-icon:hover {
+  opacity: 0.7;
+}
+.allvideos-text {
+  border: 1.9px solid rgb(230, 235, 230);
+  color: white;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+}
+.style-plus {
+  font-size: 30px;
+  font-family: monospace;
+}
+.all-videos {
+  position: absolute;
+  top: 620px;
+  left: 640px;
+}
+.all-videos:hover {
+  opacity: 0.7;
+}
+.names {
+  color: white;
+  margin-bottom: -30px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.intro {
+  color: rgb(138, 130, 112);
+  font-family: "Lucida Sans", Arial;
+  font-size: 20px;
+}
+.read-more {
+  color: white;
+  font-size: 20px;
+}
+.read-more:hover {
+  color: darkgoldenrod;
+  transition: 1s;
+  cursor: pointer;
+}
+#arrow-left {
+  padding: 5px;
+}
+.section1 {
+  padding-left: 200px;
+  padding-bottom: 10px;
+}
+.section2 {
+  background-color: white;
+  padding-bottom: 300px;
+  width: 1340px;
+}
+.logo123 {
+  text-align: center;
+  padding-top: 100px;
+  color: rgb(143, 81, 81);
+  display: flex;
+}
+.logo1 {
+  padding-right: 100px;
+  margin-left: 200px;
+  width: 200px;
+  height: 40px;
+}
+.logo1:hover {
+  color: rgb(0, 0, 0);
+}
+.logo2 {
+  padding-right: 30px;
+  margin-left: 200px;
+  width: 200px;
+  height: 40px;
+}
+.logo2:hover {
+  color: rgb(0, 0, 0);
+}
+.logo3 {
+  padding-right: 100px;
+  margin-left: 200px;
+  width: 200px;
+  height: 40px;
+}
+.logo3:hover {
+  color: rgb(0, 0, 0);
+}
+#camera-video {
+  font-size: 60px;
+}
+#icondisc {
+  font-size: 60px;
+}
+#icontv {
+  font-size: 60px;
+}
+.video22 {
+  height: 400px;
+  width: 1340px;
+  background-color: rgb(0, 0, 0);
+}
+.background-video2 {
+  height: 400px;
+  width: 1340px;
+  object-fit: cover;
+}
+.video33 {
+  height: 400px;
+  width: 1340px;
+  background-color: rgb(0, 0, 0);
+}
+.background-video3 {
+  height: 400px;
+  width: 1340px;
+  object-fit: cover;
+}
+.video44 {
+  height: 400px;
+  width: 1340px;
+  background-color: rgb(0, 0, 0);
+}
+.background-video4 {
+  height: 400px;
+  width: 1340px;
+  object-fit: cover;
+}
+.video55 {
+  height: 400px;
+  width: 1340px;
+  background-color: rgb(0, 0, 0);
+}
+.background-video5 {
+  height: 400px;
+  width: 1340px;
+  object-fit: cover;
+}
+.footer-elements {
+  color: white;
+  height: 400px;
+  width: 1340px;
+  background-color: rgb(0, 0, 0);
+}
+.nameofooter {
+  letter-spacing: 2px;
+}
+.sowecan {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+.number {
+  font-size: 25px;
+}
+.contacts {
+  font-size: 21px;
+  word-spacing: 30px;
+  color: #ffffff;
+}
+a {
+  color: white;
+}
+.footer {
+  padding-left: 150px;
+  padding-top: 10px;
+}
+.copynote {
+  letter-spacing: 2px;
+  color: rgb(143, 81, 81);
+}
+.email {
+  color: white;
+}
+.for-phone {
+  color: white;
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    margin-right: 0px;
+  }
+  .everything {
+    display: none;
+  }
+  .for-phone {
+    display: block;
+  }
+  .header-phone {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 43px;
+  }
+  .feemfeem-phone {
+    display: inline;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+  }
+  .feemboi-phone {
+    display: inline;
+    position: absolute;
+    left: 00px;
+    top: -70px;
+  }
+  .hambuoger-phone {
+    margin-left: 200px;
+  }
+  .container {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 80px;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 31px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+
+  .change .bar2 {
+    opacity: 0.6;
+  }
+
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  .video-phone1 {
+    height: 300px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+  }
+  .background-video-phone1 {
+    height: 250px;
+    width: 380px;
+    object-fit: contain;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -30px;
+    padding-right: 0px;
+  }
+  .latest-work {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    letter-spacing: 6px;
+    text-decoration: underline;
+  }
+  #playicon-phone {
+    font-size: 27px;
+    position: absolute;
+    top: 230px;
+    left: 130px;
+    color: white;
+  }
+  #icon-text-phone {
+    font-size: 20px;
+    position: absolute;
+    top: 230px;
+    left: 170px;
+    color: white;
+    text-decoration: underline;
+  }
+  .play-and-icon:hover {
+    opacity: 0.7;
+  }
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    position: relative;
+    top: -75px;
+    right: -0px;
+    background-color: rgb(133, 125, 125);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #fcf9f9;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .section1-phone {
+    position: relative;
+    bottom: 20px;
+  }
+  .names-phone {
+    color: white;
+    font-size: 20px;
+    font-family: "Lucida Sans", Arial;
+    letter-spacing: 0.5px;
+  }
+  .intro {
+    color: rgb(138, 130, 112);
+    font-family: "Lucida Sans", Arial;
+    font-size: 16px;
+    position: relative;
+    bottom: 18px;
+    margin-left: 20px;
+  }
+  .read-more {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    margin-left: 20px;
+  }
+  .read-more:hover {
+    color: darkgoldenrod;
+    transition: 1s;
+    cursor: pointer;
+  }
+  #arrow-left {
+    padding: 5px;
+  }
+  .functions-phone {
+    position: relative;
+    bottom: 14px;
+  }
+  #camera-video-phone {
+    font-size: 60px;
+    color: rgb(143, 81, 81);
+    position: relative;
+    left: 140px;
+    bottom: -40px;
+  }
+  .narrative {
+    background-color: rgb(255, 255, 255);
+    height: 860px;
+    margin-right: -15px;
+    margin-top: -30px;
+    margin-left: -10px;
+  }
+  .narra {
+    position: absolute;
+    margin-top: 40px;
+    left: 130px;
+    color: black;
+  }
+  .narra-text {
+    color: goldenrod;
+    text-align: center;
+    padding-top: 80px;
+  }
+  #icontv-phone {
+    font-size: 60px;
+    color: rgb(143, 81, 81);
+    position: relative;
+    left: 140px;
+    bottom: -40px;
+  }
+  #icondisc-phone {
+    font-size: 60px;
+    color: rgb(143, 81, 81);
+    position: relative;
+    left: 140px;
+    bottom: -40px;
+  }
+  .latest-work-phone1 {
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 200px;
+    left: 60px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    letter-spacing: 6px;
+    text-decoration: underline;
+  }
+  .footer-phone {
+    color: white;
+    margin-left: 10px;
+  }
+  .contact-me-phone {
+    font-size: 25px;
+    font-family: cursive;
+  }
+  .sowecan-phone {
+    font-size: 20px;
+    font-family: monospace;
+  }
+  .email-phone {
+    color: white;
+  }
+  .number-phone {
+    font-size: 20px;
+  }
+  .contacts-phone {
+    font-size: 21px;
+    word-spacing: 30px;
+    color: #ffffff;
+  }
+  .copynote-phone {
+    letter-spacing: 2px;
+    color: rgb(143, 81, 81);
+  }
+}

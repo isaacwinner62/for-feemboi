@@ -359,8 +359,8 @@ a {
     background-color: rgb(0, 0, 0);
   }
   .background-video-phone1 {
-    height: 250px;
-    width: 380px;
+    height: 350px;
+    width: 440px;
     object-fit: contain;
     margin-left: -10px;
     margin-right: -10px;
@@ -567,5 +567,12 @@ a {
   }
   .docu {
     padding-top: 20px;
+  }
+  .gg a {
+    color: black;
+    text-decoration: none;
+  }
+  .Documentary-videos {
+    display: none;
   }
 }

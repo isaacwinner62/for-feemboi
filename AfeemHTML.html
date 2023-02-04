@@ -141,10 +141,10 @@
 
 <div class="for-phone">
       
-
+<link src="documentary.html">
 <div class="header-phone">
       
-      <ol class="logo-phone">
+      <ol id="home" class="logo-phone">
             <li class="feemfeem-phone"> <img src="feemfeem.jpg"  width="90px" height="90px"></li>
             <li class="feemboi-phone"> <img src="feemboi-white-text.png" width="200px" height="200px"></li>
             
@@ -157,18 +157,24 @@
 </div>
       </div>
       <div class="gg">
-            <p class="docu">DOCUMENTARY</p><hr>
-            <p>COMMERCIAL</p><hr>
-            <p>MUSIC-VIDEOS</p><hr>
-            <p>BIO</p><hr>
-            <p>GEAR</p><hr>
-            <p>CONTACT</p>
+           <a href="#home"> <p class="docu">MENU</p></a><hr>
+           <a href="#"><p>DOCUMENTARY <link src="documentary.html"></p></a><hr>
+            <a href="#"><p>COMMERCIAL</p></a><hr>
+                  <a href="#"><p>MUSIC-VIDEOS</p></a><hr>
+                        <a href="#"><p>BIO</p></a><hr>
+                              <a href="#"><p>GEAR</p></a><hr>
+                                    <a href="#"><p>CONTACT</p></a>
       </div>
 </div>
 
 <script>
+      $(function (){ 
 $(".hambuoger-phone").click(function (){
       $(".gg").toggle()
+});
+$(".docu").click(function (){
+      $(".gg").toggle()
+});
 });
 </script>
 
@@ -304,7 +310,14 @@ $(".hambuoger-phone").click(function (){
                   </div>
 
                   </footer>
-</div>
+<div class="Documentary-videos">
+                  <video  autoplay controls loop class="background-video-phone1" muted plays-inline> 
+                        <source src="Chukwu Nnam.mp4" type="video/mp4"></video> 
+            
+                        <video  autoplay controls loop class="background-video-phone1" muted plays-inline> 
+                              <source src="MUNA REAL ESTATE.mp4" type="video/mp4"></video> 
+                        </div>
+
 
 <script>
       let slideIndex = 1;
@@ -334,6 +347,7 @@ $(".hambuoger-phone").click(function (){
         dots[slideIndex-1].className += " active";
       }
       </script>
+      </div>
       
 </body>
 </html>

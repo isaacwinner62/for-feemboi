@@ -141,7 +141,7 @@
 
 <div class="for-phone">
       
-<link src="documentary.html">
+
 <div class="header-phone">
       
       <ol id="home" class="logo-phone">
@@ -157,8 +157,8 @@
 </div>
       </div>
       <div class="gg">
-           <a href="#home"> <p class="docu">MENU</p></a><hr>
-           <a href="#"><p>DOCUMENTARY <link src="documentary.html"></p></a><hr>
+           <a href="#home"> <p class="bar-menu">MENU</p></a><hr>
+           <a href="#"><p id="bar-docu">DOCUMENTARY</p></a><hr>
             <a href="#"><p>COMMERCIAL</p></a><hr>
                   <a href="#"><p>MUSIC-VIDEOS</p></a><hr>
                         <a href="#"><p>BIO</p></a><hr>
@@ -175,15 +175,44 @@ $(".hambuoger-phone").click(function (){
 $(".docu").click(function (){
       $(".gg").toggle()
 });
+
+
+$("#bar-docu").click(function (){
+      $(".Documentary-videos").css("display", "block")
+      $(".video-slide-phone").css("display", "none")
+      $(".section1-phone").css("display", "none")
+      $(".narrative").css("display", "none")
+      $(".three-videos").css("display", "none")
+      $(".footer-phone").css("display", "none")
 });
+
+$(".bar-menu").click(function (){
+      $(".Documentary-videos").css("display", "none")
+      $(".video-slide-phone").css("display", "block")
+      $(".section1-phone").css("display", "block")
+      $(".narrative").css("display", "block")
+      $(".three-videos").css("display", "block")
+      $(".footer-phone").css("display", "block")
+      $(".gg").toggle()
+});
+
+
+});
+
+
 </script>
 
 
-<script>
-      function myFunction(x) {
-        x.classList.toggle("change");
-      }
-      </script>
+      <div class="Documentary-videos">
+                 
+            
+                 <video  autoplay controls loop class="background-video-phone12" muted plays-inline> 
+                       <source src="MUNA REAL ESTATE.mp4" type="video/mp4"></video> 
+                 
+
+                 <video  autoplay controls loop class="background-video-phone12" muted plays-inline> 
+                       <source src="Chukwu Nnam.mp4" type="video/mp4"></video> 
+                 </div>
       
 <div class="video-slide-phone">
 
@@ -218,9 +247,9 @@ $(".docu").click(function (){
                       
             </div><br>
             <div style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
                 </div>
                 
 
@@ -270,6 +299,8 @@ $(".docu").click(function (){
       </p>
      </div>
 
+
+     <div class="three-videos">
      <video  autoplay loop class="background-video-phone1" muted plays-inline>
       <source src="ABJJJJJ.mp4" type="video/mp4"></video>
       <h1 class="latest-work-phone1"><b>Documentary</b></h1> 
@@ -281,6 +312,7 @@ $(".docu").click(function (){
             <video  autoplay loop class="background-video-phone1" muted plays-inline> 
                   <source src="jjk.mp4" type="video/mp4"></video> 
                   <h1 class="latest-work-phone1"><b>Music Video</b></h1>
+            </div>
 
                   <footer class="footer-phone">
                         <p><b class="contact-me-phone">Contact me</b></p>
@@ -310,12 +342,6 @@ $(".docu").click(function (){
                   </div>
 
                   </footer>
-<div class="Documentary-videos">
-                 
-            
-                        <video  autoplay controls loop class="background-video-phone1" muted plays-inline> 
-                              <source src="MUNA REAL ESTATE.mp4" type="video/mp4"></video> 
-                        </div>
 
 
 <script>

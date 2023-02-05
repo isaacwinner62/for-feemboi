@@ -495,7 +495,8 @@ a {
   .narra {
     position: absolute;
     margin-top: 40px;
-    left: 130px;
+    left: 120px;
+    text-align: center;
     color: black;
   }
   .narra-text {
@@ -565,7 +566,7 @@ a {
     position: relative;
     display: none;
   }
-  .docu {
+  .bar-menu{
     padding-top: 20px;
   }
   .gg a {
@@ -577,7 +578,7 @@ a {
   }
   .background-video-phone12 {
     height: 350px;
-    width: auto;
+    width: 440px;
     object-fit: contain;
     margin-left: -10px;
     margin-right: -10px;

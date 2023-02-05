@@ -150,7 +150,7 @@
             
       </ol>   
       <div class="hambuoger-phone">
-<div class="container" onclick="myFunction(this)">
+<div class="container">
   <div class="bar1"></div>
   <div class="bar2"></div>
   <div class="bar3"></div>
@@ -161,9 +161,9 @@
            <a href="#"><p id="bar-docu">DOCUMENTARY</p></a><hr>
             <a href="#"><p>COMMERCIAL</p></a><hr>
                   <a href="#"><p>MUSIC-VIDEOS</p></a><hr>
-                        <a href="#"><p>BIO</p></a><hr>
+                        <a href="#ur bio"><p>BIO</p></a><hr>
                               <a href="#"><p>GEAR</p></a><hr>
-                                    <a href="#"><p>CONTACT</p></a>
+                                    <a href="#contact us"><p>CONTACT</p></a>
       </div>
 </div>
 
@@ -194,6 +194,20 @@ $(".bar-menu").click(function (){
       $(".three-videos").css("display", "block")
       $(".footer-phone").css("display", "block")
       $(".gg").toggle()
+});
+
+// $("#bar-docu").click(function (){
+//       $(".Documentary-videos").css("display", "block")
+//       $(".video-slide-phone").css("display", "none")
+//       $(".section1-phone").css("display", "none")
+//       $(".narrative").css("display", "none")
+//       $(".three-videos").css("display", "none")
+//       $(".footer-phone").css("display", "none")
+// });
+
+$(".hambuoger-phone").click(function (){
+      $(".latest-work").toggle()
+      $(".play-and-icon").toggle()
 });
 
 
@@ -259,7 +273,7 @@ $(".bar-menu").click(function (){
  
       </div>
 
-      <section class="section1-phone">
+      <section class="section1-phone" id="ur bio">
             <h1 class="names-phone">
             <p class="name">&nbsp;Isaac Paul</p>
             <p class="functions-phone">&nbsp;Cinematographer,<br>&nbsp; Filmmaker,<br> &nbsp;Visual-storyteller</p>
@@ -314,7 +328,7 @@ $(".bar-menu").click(function (){
                   <h1 class="latest-work-phone1"><b>Music Video</b></h1>
             </div>
 
-                  <footer class="footer-phone">
+                  <footer class="footer-phone" id="contact us">
                         <p><b class="contact-me-phone">Contact me</b></p>
                         <p class="sowecan-phone">so we can create<br> creative projects<br> together</p><br>
 
